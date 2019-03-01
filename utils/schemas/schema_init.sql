@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS Sessions (
+  Session     TEXT NOT NULL,
+  Opened      TEXT NOT NULL,
+  Closed      TEXT NOT NULL,
+  Stamped     TEXT DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (Opened ASC, Session ASC) ON CONFLICT FAIL
+);
+
+CREATE TABLE IF NOT EXISTS Mails (
+  ID          TEXT NOT NULL,
+  ReceiveDate TEXT NOT NULL,
+  Subject     TEXT NOT NULL,
+  Sender      TEXT NOT NULL,
+  Stamped     TEXT DEFAULT CURRENT_TIMESTAMP,
+  
+  PRIMARY KEY (ID ASC, ReceiveDate ASC) ON CONFLICT IGNORE
+);
