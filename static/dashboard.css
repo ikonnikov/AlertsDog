@@ -1,0 +1,113 @@
+.rect_has_ok { fill: #5cb85c; }
+.rect_has_ok:hover { fill: #449d44; }
+
+.rect_has_fail { fill: #d9534d; }
+.rect_has_fail:hover { fill: #c9302c; }
+
+.rect_has_warning { fill: #e6c81e; }
+.rect_has_warning:hover { fill: #c8aa0f; }
+
+.rect_has_belated { fill: #c0d317; }
+.rect_has_belated:hover { fill: #abbc15; }
+
+.rect_has_outtimed { fill: #d3d3d3; }
+.rect_has_outtimed:hover { fill: #a9a9a9; }
+
+.rect_has_execution{ fill: #b4c8a0; }
+.rect_has_execution:hover { fill: #a0afaa; }
+
+.tooltip_has_ok { color: #449d44; }
+.tooltip_has_fail { color: #c9302c; }
+.tooltip_has_warning { color: #c8aa0f; }
+
+.h1, h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 10px;
+    padding-left: 0;
+    width: auto;
+    border: 0;
+    border-left: thin solid #000000;
+    pointer-events: none;
+    line-height: 12px;
+    padding-top: 0;
+    display: block;
+}
+
+.x_tick_emph {
+    font-weight: bold;
+}
+
+.ytitle {
+    /* y axis labels */
+    dominant-baseline: middle;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 10px;
+}
+
+.ytitle.link {
+    /* y axis label with link */
+    cursor: pointer;
+    fill: #07C;
+}
+
+.axis path,
+.axis line {
+    display: none;
+}
+
+.axis text {
+    font-size: 8px;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    fill: #777;
+}
+
+.vert_grid {
+    fill: none;
+    stroke: #dddddd;
+    stroke-width: 1px;
+}
+
+.vert_grid_emph {
+    fill: none;
+    stroke: #dddddd;
+    stroke-width: 2px;
+}
+
+.horz_grid {
+    fill: none;
+    stroke: #dddddd;
+    stroke-width: 1px;
+}
+
+.heading {
+    font-size: 14px;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 10px;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    fill: #777;
+}
+
+.legend {
+    dominant-baseline: middle;
+    font-size: 7px;
+    font-family: "Muli", "Helvetica", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    fill: #777;
+}
